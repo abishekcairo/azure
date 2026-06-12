@@ -1,0 +1,2 @@
+az storage blob upload --account-name xfusionwebst2573 --container-name '$web' --name
+ index.html --file ./index.html
