@@ -1,0 +1,7 @@
+#task1
+
+az storage entity insert --account-name nautilustablest6145 --table-name tasks --entity PartitionKey=tasks RowKey=1 description="Learn Table Storage" status="completed"
+
+#task2
+
+az storage entity insert --account-name nautilustablest6145 --table-name tasks --entity PartitionKey=tasks RowKey=2 description="Build To-Do App" status="in-progress"
